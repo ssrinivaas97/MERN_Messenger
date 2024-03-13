@@ -28,9 +28,11 @@ npm install
 Create a .env file in the root directory and add the necessary environment variables:
 
 env
-Copy code
+
 PORT=5000
+
 MONGO_URI=your_mongodb_uri
+
 JWT_SECRET=your_jwt_secret
 
 ## Install frontend dependencies
@@ -56,7 +58,9 @@ For development purposes, you can start the backend and frontend separately to t
 ## To run the backend server:
 
 npm run server
-To run the frontend development server:
+
+## To run the frontend development server:
+
 In a new terminal window, navigate to the frontend directory:
 
 cd frontend
